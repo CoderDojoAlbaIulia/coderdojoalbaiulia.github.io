@@ -1,0 +1,27 @@
+---
+import NavLinks from "./NavLinks.astro";
+---
+
+<div
+  class="mx-auto md:max-w-7xl relative z-50 flex md:block justify-between md:justify-center items-center"
+>
+  <div class="px-6 pt-6 lg:max-w-3xl lg:pl-8 lg:pr-0 block lg:absolute">
+    <nav
+      class="flex flex-col md:flex-row items-center lg:justify-start"
+      aria-label="Global"
+    >
+      <a
+        href="/"
+        class="-m-1.5 p-1.5"
+      >
+        <span class="sr-only">CoderDojo Alba Iulia</span>
+        <img
+          alt=""
+          src="/logo.png"
+          class="w-32"
+        />
+      </a>
+      <NavLinks />
+    </nav>
+  </div>
+</div>
