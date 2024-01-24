@@ -1,9 +1,8 @@
 export const navLinks = [
-  { index: 1, name: "Home", href: "/" },
+  { index: 1, name: "Acasă", href: "/" },
   { index: 2, name: "Blog", href: "/blog" },
   { index: 3, name: "Despre", href: "/despre" },
-  { index: 4, name: "Regulament", href: "/regulament" },
-  { index: 5, name: "Confidențialitate", href: "/confidentialitate" },
+  { index: 4, name: "Contact", href: "/#contact" },
 ];
 
 export const sponsors = [
