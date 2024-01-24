@@ -9,11 +9,11 @@ import { sponsors } from "../data";
     sponsors.map((sponsor) => (
       <a
         href={sponsor.link}
-        class="text-center"
+        class="text-center flex flex-col items-center gap-y-2"
         title={sponsor.sponsor}
       >
         <img
-          class={`col-span-2  w-full object-contain lg:col-span-1 ${
+          class={`col-span-2  w-full object-contain lg:col-span-1 grayscale hover:grayscale-0 transition-colors ${
             sponsor.height ? sponsor.height : "max-h-20"
           }`}
           src={sponsor.image}
