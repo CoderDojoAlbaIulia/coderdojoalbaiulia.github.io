@@ -1,11 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import PostsList from "../components/PostsList.astro";
+import Pattern from "../components/Pattern.astro";
 ---
 
 <Layout title="Blog | CoderDojo Alba Iulia">
   <div class="bg-white py-24 sm:py-32">
-    <div class="relative">
+    <div class="relative z-50">
       <div class="mx-auto max-w-7xl px-6 lg:px-8 -mt-4 md:pt-24">
         <div class="mx-auto max-w-2xl lg:max-w-4xl">
           <h2
@@ -24,5 +25,6 @@ import PostsList from "../components/PostsList.astro";
         </div>
       </div>
     </div>
+    <Pattern/>
   </div>
 </Layout>
