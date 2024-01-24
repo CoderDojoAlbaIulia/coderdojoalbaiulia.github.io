@@ -5,7 +5,7 @@ import PostsList from "../components/PostsList.astro";
 
 <Layout title="Blog | CoderDojo Alba Iulia">
   <div class="bg-white py-24 sm:py-32">
-    <div class="relative">
+    <div class="relative z-50">
       <div class="mx-auto max-w-7xl px-6 lg:px-8 -mt-4 md:pt-24">
         <div class="mx-auto max-w-2xl lg:max-w-4xl">
           <h2
@@ -24,5 +24,20 @@ import PostsList from "../components/PostsList.astro";
         </div>
       </div>
     </div>
+        <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-3/4 opacity-40">
+          <svg
+          class="absolute top-0 left-0 hidden h-full w-fulltranslate-x-1/2 transform fill-white lg:block"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <polygon points="0,0 90,0 50,100 0,100"></polygon>
+        </svg>
+          <img
+            class="aspect-[3/2] object-cover lg:aspect-auto h-0 w-0 lg:h-full lg:w-full"
+            src="/gradient.avif"
+            alt=""
+          />
+        </div>
   </div>
 </Layout>
