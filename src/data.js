@@ -1,7 +1,7 @@
 export const navLinks = [
   { index: 1, name: "Acasă", href: "/" },
-  { index: 2, name: "Blog", href: "/blog" },
-  { index: 3, name: "Despre", href: "/despre" },
+  { index: 2, name: "Blog", href: "/blog/" },
+  { index: 3, name: "Despre", href: "/despre/" },
   { index: 4, name: "Contact", href: "/#contact" },
 ];
 
@@ -76,13 +76,13 @@ export const mentors = [
     worksAt: "Xplication",
     website: "https://xplication.com/",
   },
-
   {
-    image: "/traian-simedru.jpeg",
-    name: "Traian Simedru",
-    worksAt: "Echipa de Digitalizare",
-    website: "https://echipadedigitalizare.ro/",
+    image: "/rares-urban.jpeg",
+    name: "Rareș Urban",
+    worksAt: "Acid Art Studio",
+    website: "https://acidartstudio.com/",
   },
+
   {
     image: "/george.jpg",
     name: "George Cosma",
@@ -90,11 +90,12 @@ export const mentors = [
     website: "https://whitecitycode.com/",
   },
   {
-    image: "/rares-urban.jpeg",
-    name: "Rareș Urban",
-    worksAt: "Acid Art Studio",
-    website: "https://acidartstudio.com/",
+    image: "/traian-simedru.jpeg",
+    name: "Traian Simedru",
+    worksAt: "Echipa de Digitalizare",
+    website: "https://echipadedigitalizare.ro/",
   },
+
   {
     image: "/alin.jpg",
     name: "Alin Muntean",
@@ -104,8 +105,8 @@ export const mentors = [
   {
     image: "/claudiu-neamtu.jpeg",
     name: "Claudiu Neamțu",
-    worksAt: "3SS",
-    website: "https://www.3ss.tv/",
+    worksAt: "ex-Ninja",
+    /* website: "https://www.3ss.tv/", */
   },
   {
     image: "/florina.jpg",
