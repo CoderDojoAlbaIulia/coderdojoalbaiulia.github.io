@@ -30,7 +30,6 @@ const { Content } = await post.render();
 
 <Layout title={post.data.title}>
   <div class="max-w-7xl mx-auto py-10 md:py-48 px-4 md:px-0">
-    <BackButton />
     <div class="overflow-hidden bg-white">
       <div class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div
@@ -41,6 +40,8 @@ const { Content } = await post.render();
           class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8"
         >
           <div>
+            <BackButton />
+
             <h3
               class="mt-2 mb-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
             >
