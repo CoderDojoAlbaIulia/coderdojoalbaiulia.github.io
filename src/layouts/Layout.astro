@@ -16,25 +16,42 @@ const { title, paddingTop } = Astro.props;
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Astro description"
+      content="CoderDojo Alba Iulia este parte a unei inițiative globale de a crea cluburi de programare pentru copii și adolescenți în care copiii (“ninjas” - între 7 și 17 ani) învață programare de la voluntari (“mentors”) din comunitatea locală. Dojo-ul din Alba Iulia este o inițiativă a AI3, primul cluster de IT din județul Alba."
+    />
+    <meta
+      property="og:description"
+      content="CoderDojo Alba Iulia este parte a unei inițiative globale de a crea cluburi de programare pentru copii și adolescenți în care copiii (“ninjas” - între 7 și 17 ani) învață programare de la voluntari (“mentors”) din comunitatea locală. Dojo-ul din Alba Iulia este o inițiativă a AI3, primul cluster de IT din județul Alba."
     />
     <meta
       name="viewport"
       content="width=device-width"
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
+
+    <meta
+      property="og:image:secure_url"
+      content="https://coderdojo.ai3.ro/logo.png"
+    />
+    <meta
+      property="og:image"
+      content="https://coderdojo.ai3.ro/logo.png"
+    />
+    <meta
+      property="og:url"
+      content="https://coderdojo.ai3.ro"
     />
     <link
       rel="icon"
       href="/logo.png"
     />
     <meta
-      name="generator"
-      content={Astro.generator}
+      property="og:title"
+      content={title}
     />
     <title>{title}</title>
-    <link
-      href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <Navbar />
