@@ -10,7 +10,7 @@ export default function MobileNav() {
   }, []);
 
   return (
-    <div className="relative md:hidden">
+    <div className="relative md:hidden -top-4">
       <button
         onClick={() => setShowNav(!showNav)}
         className={` z-50 -ml-12 px-3 py-2 border rounded ${
@@ -24,7 +24,7 @@ export default function MobileNav() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6 z-50 text-white"
+            className="w-6 h-6  text-white"
           >
             <path
               strokeLinecap="round"
@@ -39,7 +39,7 @@ export default function MobileNav() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6 z-50"
+            className="w-6 h-6"
           >
             <path
               strokeLinecap="round"
