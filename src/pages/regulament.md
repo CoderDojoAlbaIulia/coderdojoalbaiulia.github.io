@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/OtherLayout.astro
 title: "Regulament CoderDojo Alba Iulia"
-paddingTop: 70
+paddingTop: 56
 permalink: /regulament
 ---
 

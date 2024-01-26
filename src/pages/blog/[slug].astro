@@ -3,6 +3,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import BackButton from "../../components/BackButton.astro";
 import Blogs from "../../components/Blogs.astro";
+import Pattern from "../../components/Pattern.astro";
 
 type Props = {
   post: CollectionEntry<"posts">;
@@ -29,10 +30,10 @@ const { Content } = await post.render();
 ---
 
 <Layout
-  paddingTop="36"
+  paddingTop="56"
   title={post.data.title}
 >
-  <div class="max-w-7xl mx-auto py-10 md:py-48 px-4 md:px-0">
+  <div class="max-w-7xl pt-24 md:pt-36 mx-auto py-10 md:py-48 px-4 md:px-0">
     <div class="overflow-hidden bg-white">
       <div class="relative mx-auto max-w-7xl px-6 py-8 md:py-16 lg:px-8">
         <div
@@ -136,4 +137,5 @@ const { Content } = await post.render();
 
     <Blogs post={post} />
   </div>
+  <Pattern />
 </Layout>
