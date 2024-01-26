@@ -2,7 +2,7 @@ export const navLinks = [
   { index: 1, name: "Acasă", href: "/" },
   { index: 2, name: "Blog", href: "/blog/" },
   { index: 3, name: "Despre", href: "/despre/" },
-  { index: 4, name: "Contact", href: "/#contact" },
+  { index: 4, name: "Contact", href: "/contact/" },
 ];
 
 export const sponsors = [
