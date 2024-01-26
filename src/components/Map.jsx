@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Map, Marker } from "react-map-gl";
 
 const longitude = 23.55589332597593;
@@ -24,9 +23,16 @@ export default function MyMap() {
         "TouchPanBlocker.Message": "Folosește 2 degete pentru a mări harta",
       }}
     >
-      <Marker longitude={longitude} latitude={latitude} anchor="bottom">
+      <Marker
+        longitude={longitude}
+        latitude={latitude}
+        anchor="bottom"
+      >
         <a href="https://www.google.com/maps/place/Resource+Center+-+Ladies+Academy/@46.0709601,23.5448508,15z/data=!4m6!3m5!1s0x474ea7d08f406dc7:0x7cef99f43db6a8c4!8m2!3d46.0695681!4d23.5558827!16s%2Fg%2F11c6cdh7t4?entry=tts">
-          <img src="/logo.png" className=" w-14 h-14" />
+          <img
+            src="/logo.png"
+            className=" w-14 h-14"
+          />
         </a>
       </Marker>
     </Map>
