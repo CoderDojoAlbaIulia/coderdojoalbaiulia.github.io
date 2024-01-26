@@ -51,6 +51,10 @@ const { title, paddingTop } = Astro.props;
       property="og:title"
       content={title}
     />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <title>{title}</title>
   </head>
   <body>
