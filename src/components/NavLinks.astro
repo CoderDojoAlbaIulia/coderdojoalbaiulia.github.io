@@ -9,7 +9,7 @@ const currentPath = new URL(Astro.url).pathname;
     navLinks.map((link) => (
       <a
         href={link.href}
-        class={`text-sm font-semibold leading-6 hover:text-hover transition-all ${
+        class={`hidden md:block text-sm font-semibold leading-6 hover:text-hover transition-all ${
           currentPath === link.href ? "text-accent" : "text-gray-600"
         }`}
       >

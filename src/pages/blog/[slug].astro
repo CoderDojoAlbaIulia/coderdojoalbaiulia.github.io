@@ -28,10 +28,13 @@ export const getStaticPaths = async () => {
 const { Content } = await post.render();
 ---
 
-<Layout title={post.data.title}>
+<Layout
+  paddingTop="36"
+  title={post.data.title}
+>
   <div class="max-w-7xl mx-auto py-10 md:py-48 px-4 md:px-0">
     <div class="overflow-hidden bg-white">
-      <div class="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
+      <div class="relative mx-auto max-w-7xl px-6 py-8 md:py-16 lg:px-8">
         <div
           class="absolute bottom-0 left-3/4 top-0 hidden w-screen bg-gray-50 lg:block"
         >

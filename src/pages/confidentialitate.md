@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/OtherLayout.astro
 title: "Politica de confidențialitate a CoderDojo Alba Iulia"
+paddingTop: 56
 permalink: /confidentialitate
 ---
 
