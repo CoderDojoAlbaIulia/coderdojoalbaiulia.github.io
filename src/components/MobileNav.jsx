@@ -55,7 +55,7 @@ export default function MobileNav() {
             <button onClick={() => setShowNav(false)}>
               <a
                 href={nav.href}
-                className={` tracking-wider text-2xl shadow ${
+                className={` tracking-wider text-2xl ${
                   currentPath === nav.href ? "text-accent" : "text-white"
                 }`}
               >
