@@ -3,15 +3,16 @@ import Blogs from "./Blogs.astro";
 const { post } = Astro.props;
 ---
 
-<div class="bg-white py-24 sm:py-32">
+<div class="bg-gray-100 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
         Blogul nostru
       </h2>
-      <p class="mt-2 text-lg leading-8 text-gray-600">
-        Blogul nostru reprezintă un spațiu în care împărtășim călătoria noastră
-        prin lumea ingineriei.
+      <p class="mt-2 text-lg font-light text-gray-600">
+        Călătoria unui ninja nu se sfârșește niciodată. Explorează noutățile,
+        află despre proiectele micilor programatori sau accesează resurse
+        gratuite de învățare!
       </p>
     </div>
     <Blogs post={post} />

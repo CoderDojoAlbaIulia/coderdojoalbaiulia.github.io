@@ -2,109 +2,39 @@
 import Layout from "../layouts/Layout.astro";
 import Mentors from "../components/Mentors.astro";
 import Pattern from "../components/Pattern.astro";
+import WhenWhereWhy from "../components/WhenWhereWhy.astro";
+import HowTo from "../components/HowTo.astro";
 ---
 
 <Layout
   title="Despre | CoderDojo Alba Iulia"
   paddingTop="28"
 >
-  <div class="bg-white px-6 lg:px-8 md:pt-48 relative">
-    <div class="mx-auto max-w-4xl text-base leading-7 text-gray-700">
-      <p class="text-base font-semibold leading-7 text-accent">
+  <div class="bg-gray-100 px-6 lg:px-8 md:pt-48 relative">
+    <div class="mx-auto max-w-7xl text-base leading-7 text-gray-700 sm:px-10">
+      <p class="text-base font-semibold leading-7 text-accent px-1">
         Coder Dojo Alba Iulia
       </p>
       <h1
         class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
       >
-        Inițiativa
+        Călătoria ta prin tainele programării începe aici!
       </h1>
-      <p class="mt-6 text-xl leading-8">
-        <a href="https://www.facebook.com/coderdojoalbaiulia"
-          >CoderDojo Alba Iulia</a
-        > este parte a unei <a href="https://coderdojo.com/en/"
-          >inițiative globale</a
-        > de a crea cluburi de programare pentru copii și adolescenți în care copiii
-        (“ninjas” - între 7 și 17 ani) învață programare de la voluntari (“mentors”)
-        din comunitatea locală. Dojo-ul din Alba Iulia este o inițiativă a <a
-          href="https://ai3.ro/">AI3</a
-        >, primul cluster de IT din județul Alba.
+      <p class="mt-6 text-xl">
+        Fie că ești începător sau ai deja cunoștințe în programare, ai ajuns
+        unde trebuie, printre ninjas curioși, la fel ca tine, și mentori
+        pregătiți să îți vină în ajutor.
       </p>
-      <div class="mt-10 max-w-2xl">
-        <p class="text-lg">
-          Dojo-ul are loc în fiecare Joi de la ora 16:00 pe <a
-            href="https://maps.app.goo.gl/rguUaLxb9ctmKuMg6"
-            >strada Gladiolelor numărul 3A</a
-          >, dar asigură-te că urmărești <a
-            href="https://www.facebook.com/groups/1609746875954975/"
-            >grupul de facebook</a
-          > pentru modificări de program.
-        </p>
-        <ul
-          role="list"
-          class="mt-8 max-w-xl space-y-8 text-gray-600"
-        >
-          <li class="flex gap-x-3">
-            <svg
-              class="mt-1 h-5 w-5 flex-none text-accent"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-
-            <span>
-              Roagă tutorele tău să completeze <a
-                href="https://forms.gle/4fqArMANeztCBgSr7">formularul</a
-              > și asigură-te că ai citit <a href="/regulament">regulamentul</a
-              >.</span
-            >
-          </li>
-          <li class="flex gap-x-3">
-            <svg
-              class="mt-1 h-5 w-5 flex-none text-accent"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-            <span>
-              Avem și niște <a href="/regulament">reguli de bază</a> de urmat și
-              vrem să ne mândrim cu tine, deci avem nevoie de un <a
-                href="/confidentialitate">acord GDPR</a
-              >.</span
-            >
-          </li>
-          <li class="flex gap-x-3">
-            <svg
-              class="mt-1 h-5 w-5 flex-none text-accent"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-            <span>
-              Să ai la tine un sandwich, o sticlă de apă și doza necesară de
-              curiozitate. Dacă ai un laptop, adu-l, dacă nu încercăm să îți
-              găsim noi un calculator.</span
-            >
-          </li>
-        </ul>
-        <p class="mt-8">
+      <p class="mt-6 text-xl">
+        CoderDojo a ajuns în peste 100 de țări, iar acum este în orașul tău,
+        datorită inițiativei AI3, primul cluster de IT din Alba. Dacă ai între 7
+        și 17 ani, ești pasionat de programare sau vrei să te inițiezi într-un
+        domeniu captivant, vino în gașca noastră!
+      </p>
+      <WhenWhereWhy />
+      <div class="mt-10">
+        <HowTo />
+        <p>
           Poți să devii <span class="text-accent">mentor</span> dacă ai fost ninja
           la vreun CoderDojo existent sau dacă ești membru <a
             href="https://ai3.ro/">AI3</a
@@ -114,7 +44,7 @@ import Pattern from "../components/Pattern.astro";
         <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
           From novice to coding ninja
         </h2>
-        <p class="mt-6">
+        <p class="mt-6 text-lg">
           Indiferent dacă ești începător sau ai deja cunoștințe în programare,
           la CoderDojo Alba Iulia ai șansa să devii un adevărat ninja!
           Inițiază-te în lumea programării alături de mentori experimentați care
@@ -123,7 +53,7 @@ import Pattern from "../components/Pattern.astro";
           abilitățile, CoderDojo Alba Iulia este locul perfect pentru tine.
         </p>
 
-        <p class="mt-10">
+        <p class="mt-10 text-lg">
           Descoperă lumea programării alături de noi și lasă-ți imaginația să
           zboare în această călătorie captivantă prin cod!
         </p>
