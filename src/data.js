@@ -120,4 +120,10 @@ export const mentors = [
     worksAt: "WhiteCity Code",
     website: "https://whitecitycode.com/",
   },
+  {
+    image: "/andrei.jpg",
+    name: "Andrei Ilie",
+    worksAt: "Xplication",
+    website: "https://xplication.com/",
+  },
 ];
