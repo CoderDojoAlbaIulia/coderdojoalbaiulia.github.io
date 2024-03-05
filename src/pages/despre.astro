@@ -4,6 +4,8 @@ import Mentors from "../components/Mentors.astro";
 import Pattern from "../components/Pattern.astro";
 import WhenWhereWhy from "../components/WhenWhereWhy.astro";
 import HowTo from "../components/HowTo.astro";
+import about_pic from "../../public/about-pic.jpeg";
+import { Image } from "astro:assets";
 ---
 
 <Layout
@@ -59,9 +61,9 @@ import HowTo from "../components/HowTo.astro";
         </p>
       </div>
       <figure class="mt-16">
-        <img
+        <Image
           class="aspect-video rounded-xl bg-gray-50 object-cover"
-          src="/about-pic.jpeg"
+          src={about_pic}
           alt=""
         />
       </figure>

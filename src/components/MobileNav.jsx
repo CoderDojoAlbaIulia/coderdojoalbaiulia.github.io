@@ -52,7 +52,10 @@ export default function MobileNav() {
       {showNav ? (
         <div className="overflow-hidden fixed flex flex-col gap-y-8 justify-center items-center top-0 left-0 bg-gray-600/80 h-screen w-full transition-all delay-75">
           {navLinks.map((nav) => (
-            <button onClick={() => setShowNav(false)}>
+            <button
+              key={nav.index}
+              onClick={() => setShowNav(false)}
+            >
               <a
                 href={nav.href}
                 className={` tracking-wider text-2xl ${
@@ -67,7 +70,10 @@ export default function MobileNav() {
       ) : (
         <div className="overflow-hidden fixed flex flex-col gap-y-8 justify-center items-center top-0 left-0 bg-gray-600/80 h-0 w-full transition-all delay-75">
           {navLinks.map((nav) => (
-            <button onClick={() => setShowNav(false)}>
+            <button
+              key={nav.index}
+              onClick={() => setShowNav(false)}
+            >
               <a
                 href={nav.href}
                 className={`tracking-wider text-2xl shadow ${

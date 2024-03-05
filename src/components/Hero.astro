@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import Button from "./Button.astro";
+import hero_image from "../../public/try.jpeg";
 ---
 
 <div class="bg-gray-100 pt-16 md:pt-0">
@@ -42,9 +44,9 @@ import Button from "./Button.astro";
       </div>
     </div>
     <div class="bg-gray-100 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img
+      <Image
         class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-        src="/try.jpeg"
+        src={hero_image}
         alt=""
       />
     </div>
