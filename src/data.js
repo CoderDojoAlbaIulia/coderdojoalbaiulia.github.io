@@ -17,11 +17,6 @@ export const sponsors = [
     link: "https://www.apulum.ro/",
   },
   {
-    image: "/academia-doamnelor.jpg",
-    sponsor: "Academia Doamnelor",
-    link: "https://ro-ro.facebook.com/academiadoamneloralba/",
-  },
-  {
     image: "/educlick.png",
     sponsor: "Edu Click",
     link: "https://www.educlick.ro/",
@@ -49,12 +44,6 @@ export const sponsors = [
     link: "https://www.acidartstudio.com/",
     height: "max-h-14",
   },
-  {
-    image: "/cos.svg",
-    sponsor: "Creators of Human Spaces",
-    link: "https://cos.ro/",
-    height: "max-h-14",
-  },
 ];
 
 export const mentors = [
@@ -76,25 +65,6 @@ export const mentors = [
     worksAt: "Xplication",
     website: "https://xplication.com/",
   },
-  {
-    image: "/rares-urban.jpeg",
-    name: "Rareș Urban",
-    worksAt: "Acid Art Studio",
-    website: "https://acidartstudio.com/",
-  },
-
-  {
-    image: "/george.jpg",
-    name: "George Cosma",
-    worksAt: "WhiteCity Code",
-    website: "https://whitecitycode.com/",
-  },
-  {
-    image: "/traian-simedru.jpeg",
-    name: "Traian Simedru",
-    worksAt: "Echipa de Digitalizare",
-    website: "https://echipadedigitalizare.ro/",
-  },
 
   {
     image: "/alin.jpg",
@@ -108,12 +78,7 @@ export const mentors = [
     worksAt: "ex-Ninja",
     /* website: "https://www.3ss.tv/", */
   },
-  {
-    image: "/florina.jpg",
-    name: "Florina Păcurar",
-    worksAt: "WhiteCity Code",
-    website: "https://whitecitycode.com/",
-  },
+
   {
     image: "/razvan.jpg",
     name: "Răzvan Balota",
