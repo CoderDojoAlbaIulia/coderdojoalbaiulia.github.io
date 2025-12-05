@@ -43,3 +43,4 @@ Pentru orice situație deosebită, copilul este încurajat să se adreseze mento
 
 1. Claudiu Ceia - mentor fondator, [Facebook](https://www.facebook.com/claudiu.ceia)
 2. Adrian Roșian - mentor, voluntar oficial, telefon [Facebook](https://www.facebook.com/adrian.rosian.7)
+   
