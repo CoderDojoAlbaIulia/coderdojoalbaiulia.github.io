@@ -41,5 +41,5 @@ Ninja-ul este respectuos, prietenos, curios și dornic să descopere alături de
 
 Pentru orice situație deosebită, copilul este încurajat să se adreseze mentorilor și, dacă simte, tutorelui/părintelui. Oricând se pot contacta și următorii mentori:
 
-1. Claudiu Ceia - mentor fondator, telefon [+40 774 453 197](tel:+40774453197)
-2. Adrian Roșian - mentor, voluntar oficial, telefon [+40 751 152 808](tel:+40751152808)
+1. Claudiu Ceia - mentor fondator, [Facebook](https://www.facebook.com/claudiu.ceia)
+2. Adrian Roșian - mentor, voluntar oficial, telefon [Facebook](https://www.facebook.com/adrian.rosian.7)
